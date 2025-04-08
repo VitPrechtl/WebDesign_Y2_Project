@@ -5,7 +5,7 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src="logo_placeholder.png" width="125px">
+                <img src="nabi_logo.png" width="125px">
             </div>
             <nav>
                 <ul id="MenuItems">
@@ -23,10 +23,10 @@
             <div class="col-2">
                 <h1>NABI - Where Streetwear meets Self-Improvement</h1>
                 <p>Success isn't about greatness. It's about consistency, so we're here to remind yourself to become better everyday!</p>
-                <a href="" class="button">Explore Now &#8594;</a>
+                <a href="" class="button">Explore Spring Sale Now! &#8594;</a>
             </div>
             <div class="col-2">
-                <img src="image1.jpg" alt="">
+                <img src="image-1.png" alt="">
             </div>
         </div>
     </div>
@@ -35,17 +35,27 @@
 <!--CATEGORIES-->
 <div class="categories">
     <div class="small-container">
-        <div class="row">
-            <div class="col-3">
-                <img src="category-1.jpg" alt="">
+        <h2 class="title">Categories</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="category-1.jpg" alt="">
+                    <div class="category-text">
+                        Shoes
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="category-2.jpg" alt="">
+                    <div class="category-text">
+                        Full
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="category-3.jpg" alt="">
+                    <div class="category-text">
+                        Other
+                    </div>
+                </div>
             </div>
-            <div class="col-3">
-                <img src="category-2.jpg" alt="">
-            </div>
-            <div class="col-3">
-                <img src="category-3.jpg" alt="">
-            </div>
-        </div>
     </div>
 </div>
 
@@ -54,7 +64,7 @@
     <h2 class="title">Featured Products</h2>
     <div class="row">
         <div class="col-4">
-            <img src="product-1.jpg" alt="">
+            <img src="shirts/shirt-1.jpg" alt="">
             <h4>Red Printed T-Shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -63,10 +73,10 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
-            <p>$50.00</p>
+            <p>$39.99</p>
         </div>
         <div class="col-4">
-            <img src="product-1.jpg" alt="">
+            <img src="shirts/shirt-2.jpg" alt="">
             <h4>Red Printed T-Shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -75,10 +85,10 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
-            <p>$50.00</p>
+            <p>$39.99</p>
         </div>
         <div class="col-4">
-            <img src="product-1.jpg" alt="">
+            <img src="shirts/shirt-3.jpg" alt="">
             <h4>Red Printed T-Shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -87,10 +97,10 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
-            <p>$50.00</p>
+            <p>$39.99</p>
         </div>
         <div class="col-4">
-            <img src="product-1.jpg" alt="">
+            <img src="shirts/shirt-4.jpg" alt="">
             <h4>Red Printed T-Shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -99,13 +109,13 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
-            <p>$50.00</p>
+            <p>$39.99</p>
         </div>
     </div>
     <h2 class="title">Latest Products</h2>
     <div class="row">
         <div class="col-4">
-            <img src="product-1.jpg" alt="">
+            <img src="shirts/shirt-5.jpg" alt="">
             <h4>Red Printed T-Shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -114,10 +124,10 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
-            <p>$50.00</p>
+            <p>$39.99</p>
         </div>
         <div class="col-4">
-            <img src="product-1.jpg" alt="">
+            <img src="shirts/shirt-6.jpg" alt="">
             <h4>Red Printed T-Shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -126,10 +136,10 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
-            <p>$50.00</p>
+            <p>$39.99</p>
         </div>
         <div class="col-4">
-            <img src="product-1.jpg" alt="">
+            <img src="shirts/shirt-7.jpg" alt="">
             <h4>Red Printed T-Shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -138,10 +148,10 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
-            <p>$50.00</p>
+            <p>$39.99</p>
         </div>
         <div class="col-4">
-            <img src="product-1.jpg" alt="">
+            <img src="shirts/shirt-8.jpg" alt="">
             <h4>Red Printed T-Shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -150,12 +160,12 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
-            <p>$50.00</p>
+            <p>$39.99</p>
         </div>
     </div>
     <div class="row">
         <div class="col-4">
-            <img src="product-1.jpg" alt="">
+            <img src="shirts/shirt-9.jpg" alt="">
             <h4>Red Printed T-Shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -164,10 +174,10 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
-            <p>$50.00</p>
+            <p>$39.99</p>
         </div>
         <div class="col-4">
-            <img src="product-1.jpg" alt="">
+            <img src="shirts/shirt-10.jpg" alt="">
             <h4>Red Printed T-Shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -176,10 +186,10 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
-            <p>$50.00</p>
+            <p>$39.99</p>
         </div>
         <div class="col-4">
-            <img src="product-1.jpg" alt="">
+            <img src="shirts/shirt-11.jpg" alt="">
             <h4>Red Printed T-Shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -188,10 +198,10 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
-            <p>$50.00</p>
+            <p>$39.99</p>
         </div>
         <div class="col-4">
-            <img src="product-1.jpg" alt="">
+            <img src="shirts/shirt-12.jpg" alt="">
             <h4>Red Printed T-Shirt</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -200,7 +210,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
-            <p>$50.00</p>
+            <p>$39.99</p>
         </div>
     </div>
 </div>
@@ -236,8 +246,8 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <img src="person-placeholder.jpg">
-                <h3>John Doe</h3>
+                <img src="testimonials/person-1.jpg">
+                <h3>Marcus Epictetus</h3>
             </div>
 
             <div class="col-3">
@@ -248,10 +258,10 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star"></i>
                 </div>
-                <img src="person-placeholder.jpg">
-                <h3>John Doe</h3>
+                <img src="testimonials/person-2.jpg">
+                <h3>Osas Uwe</h3>
             </div>
 
             <div class="col-3">
@@ -264,8 +274,8 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <img src="person-placeholder.jpg">
-                <h3>John Doe</h3>
+                <img src="testimonials/person-3.jpg">
+                <h3>Anala Richards</h3>
             </div>
         </div>
     </div>
@@ -294,6 +304,11 @@
             <div class="col-5">
                 <img src="favicon.png" alt="">
             </div>
+
+            <div class="col-5">
+                <img src="favicon.png" alt="">
+            </div>
+            
         </div>
     </div>
   </div>
@@ -306,16 +321,16 @@
                 <h3>For you and Humanity</h3>
             </div>
             <div class="footer-col-2">
-                <img src="logo_placeholder.png" alt="">
+                <img src="nabi_logo.png" alt="">
             </div>
             <div class="footer-col-3">
                 <h3>Useful Links</h3>
                 <ul>
-                    <li>Instagram</li>
-                    <li>Twitter</li>
-                    <li>Facebook</li>
-                    <li>YouTube</li>
-                    <li>Join Affiliate</li>
+                    <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=YmnzuLaGQW4">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/shorts/GscCsA_4Mis">Facebook</a></li>
+                    <li><a href="https://www.youtube.com/shorts/GscCsA_4Mis">YouTube</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Join Affiliate</a></li>
                 </ul>
             </div>
         </div>
@@ -366,6 +381,12 @@
         color: #555; /*Text Color*/
     }
 
+    h1{
+        font-family: "Schoolbell", cursive;
+        font-weight: 800;
+        font-style: normal;
+    }
+
     /*Web contents*/
     .container{
         max-width: 1300px; /*Container width*/
@@ -386,6 +407,7 @@
     .col-2 img{
         max-width: 100%; /*Image sizing*/
         padding: 50px 0; 
+        border-radius: 10%;
     }
     .col-2 h1{
         font-size: 50px;
@@ -396,7 +418,7 @@
     /*BUTTON*/
     .button{
         display: inline-block; /*Natural Line Flow*/
-        background: #08c1f4; /*Button Color*/
+        background: #FF5000; /*Button Color*/
         color: #fff; /*Text Color*/
         padding: 8px 30px; /*Text padding*/
         margin: 30px 0; /*Spacing from other elements - Top & Bottom*/
@@ -406,11 +428,11 @@
     }
 
     .button:hover{
-        background: #3b7cff;
+        background: #ab3600;
     }
 
     .header{
-        background: radial-gradient(#fff,#c1c1c1);
+        background: radial-gradient(#fff,#b4e9ff);
     }
     .header .row{
         margin-top: 70px; /*Margin from navbar and the next frame*/
@@ -422,11 +444,11 @@
     .col-3{
         flex-basis: 30%;
         min-width: 250px;
-        margin-bottom: 30px
+        margin-bottom: 30px;
+        margin-top: 20px;
     }
     .col-3 img{
         width: 100%;
-
     }
     .small-container{
         max-width: 1080px;
@@ -521,7 +543,23 @@
     .col-3 p{
         font-size: 12px;
         margin: 12px 0;
-        color #777;
+    }
+    .col-3{
+        cursor: pointer;
+        filter: grayscale(100%); /*All Images Gray*/
+        transition: transform 0.5s;
+    }
+    .col-3:hover{
+        filter: grayscale(0);
+        transform: translateY(-10px);
+    }
+    .category-text{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color: white;
     }
     .testimonial .col-3 h3{
         font-weight: 600;
@@ -534,7 +572,7 @@
         margin: 100px auto;
     }
     .col-5{
-        width: 160px;
+        width: 100px;
     }
     .col-5 img{
         width: 100%;
