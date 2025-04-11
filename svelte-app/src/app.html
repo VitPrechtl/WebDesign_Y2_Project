@@ -1,21 +1,31 @@
 <!doctype html>
-<html lang="en">
+<html lang="en"> <!-- Root HTML element with language set to English -->
 	<head>
+		<!-- Defines character encoding to support various languages and special characters -->
 		<meta charset="utf-8" />
-		<link rel="icon" href="favicon.png" />
+		<!-- Ensures the webpage is responsive on all devices by controlling the viewport scaling -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%sveltekit.head%
+
+		<!-- SEO Meta Tags-->
+		 <meta name="author" content="Vit Prechtl, Jeffrey Owusu, Aleksejs Buciks" />
+		 <meta name="description" content="NABI street-wear website for UI design" />
+		 <meta name="keywords" content="SvelteKit, UI Design, Frontend Development, Web App" />
+
+		 <!-- Sets the website favicon dynamically using Sveltekit's assets system -->
+		 <link rel="icon" href="favicon.png" />
+		 <!-- Links to a global CSS file for consistent styling across all pages -->
+		  <link rel="stylesheet" href="%sveltekit.assets%/style/global.css" />
+
+		  <!-- Inter Font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Schoolbell&display=swap" rel="stylesheet">
+
+		<!-- Default Website Title (Can be overridden in pages) -->
 		<title>NABI - Streetwear for anyone</title>
 
-		<!-- FONT -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Schoolbell&display=swap" rel="stylesheet">
-
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Schoolbell&display=swap" rel="stylesheet">
-		 
+		<!-- SvelteKit Injected Head Content (Allows pages to override title) -->
+		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>

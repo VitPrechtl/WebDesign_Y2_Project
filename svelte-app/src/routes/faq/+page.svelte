@@ -2,12 +2,12 @@
     import { onMount } from 'svelte';
 
     onMount(() => {
-        console.log("Products Page Loaded");
+        console.log("FAQ Page Loaded");
     });
 </script>
 
 
-<h1>Products Page</h1>
+<h1>FAQ Page</h1>
 
 
 <style>
