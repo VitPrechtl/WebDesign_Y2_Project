@@ -7,8 +7,8 @@
     --primary-color: #646cff;
     --secondary-color: #535bf2;
     --background-color: #ffffff;
-    --text-color: #213547;
-    --link-hover-color: #0056b3;
+    --text-color: black;
+    --link-hover-color: #000000;
 
     /* Font Variables */
     --font-family: 'Inter', system-ui, sans-serif;

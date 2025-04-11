@@ -1,6 +1,29 @@
 <script>
     // Import components
+    import { onMount } from 'svelte';
 
+   const checkScroll = () => {
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    const scrollY = window.scrollY;
+
+    // Check if the user has scrolled to the bottom of the page
+    if (scrollY >= documentHeight - 30) {
+        document.getElementById("footer").style.top = "1000px"; // Show the footer
+    } else {
+        document.getElementById("footer").style.top = "1000px"; // Hide the footer
+    }
+   };
+
+   // Add scroll event listener when the component mounts
+   onMount(() => {
+    window.addEventListener('scroll', checkScroll);
+
+    // Clean up event listener when the component is destroyed
+    return () => {
+        window.removeEventListener('scroll', checkScroll);
+    };
+   });
 </script>
 
 <!-- Header -->
@@ -28,7 +51,7 @@
 </main>
 
 <!-- Footer -->
-<footer>
+<footer id="footer">
     <div class="row-1">
         <div class="col-1">
             <img src="nabi_logo_white.png" alt="NABI Logo">
