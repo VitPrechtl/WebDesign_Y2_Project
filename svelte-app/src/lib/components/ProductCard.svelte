@@ -1,18 +1,14 @@
 <!-- ProductCard.svelte -->
 <script>
-    export let img;
     export let product;
-    export let category;
-    export let price;
 </script>
 
-
-<div class="product-card">
-    <img src={img} alt={product} />
-    <h3>{product}</h3>
-    <h4>{category}</h4>
-    <p>{price}</p>
-</div>
+<a href={`/products/${product.id}`} class="product-card">
+        <img src={product.img} alt={product.name} />
+        <h3>{product.name}</h3>
+        <h4>{product.category}</h4>
+        <p>{product.price}</p>
+</a>
 
 
 <style>
@@ -30,15 +26,18 @@
         width: 250px;
     }
     .product-card h3 {
+        color: black;
         font-weight:400;
         line-height: 20px;
     }
     .product-card h4 {
+        color: black;
         font-weight:400;
         font-size: 12px;
         line-height: 15px;
     }
     .product-card p {
+        color: black;
         font-weight: bolder;
         font-size: 18px;
         line-height: 25px;

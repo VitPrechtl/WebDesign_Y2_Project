@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte';
+    import { products } from '$lib/products.js';
     import ProductCard from '$lib/components/ProductCard.svelte';
 
     onMount(() => {
@@ -37,8 +38,8 @@
 <!-- Cards FRAME-->
  <div class="container-2">
     <div class="products-grid">
-        {#each products as item}
-        <ProductCard {...item} />
+        {#each products as product}
+        <ProductCard {product} />
         {/each}
     </div>
  </div>
