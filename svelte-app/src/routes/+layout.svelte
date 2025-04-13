@@ -103,7 +103,14 @@
         color: white;
         font-weight: bold;
         font-size: 24px;
+        transition: 0.5s;
     }
+
+    nav ul li a:hover {
+        color: #FF7429;
+    }
+
+    
 
     main {
         padding: 2rem;

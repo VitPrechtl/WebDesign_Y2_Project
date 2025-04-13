@@ -34,15 +34,15 @@
         </div>
         <div class="category-card-2">
             <img src="category-card.png" alt="Category card">
-            <p>Shoes</p>
+            <p>Shirts</p>
         </div>
         <div class="category-card-2">
             <img src="category-card.png" alt="Category card">
-            <p>Shoes</p>
+            <p>Hoodies</p>
         </div>
         <div class="category-card-2">
             <img src="category-card.png" alt="Category card">
-            <p>Shoes</p>
+            <p>Others</p>
         </div>
     </div>
 </div>
